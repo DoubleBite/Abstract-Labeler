@@ -1,0 +1,90 @@
+/* ================================ */
+
+/* Start jumbotron style*/
+
+.jumbotron {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+.jumbotron-heading {
+    font-size: 8vh;
+}
+
+.jumbotron p {
+    font-size: 2.5vh;
+}
+
+/* End jumbotron style*/
+
+/* ================================ */
+
+/* ================================ */
+
+/* Start Cardes */
+
+.cards {
+    /* background-image: url(); */
+    background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .5), rgba(255, 255, 255, .2)), url("https://openclipart.org/download/183675/Sphere.svg");
+    background-size: cover;
+    background-position: top;
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cards .container .row {
+    height: 100%;
+}
+
+.cards .container .row .col-md-4 {
+    height: 100%;
+}
+
+.card {
+    opacity: 0.97;
+    background-color: #BCCDE3;
+    height: 100%;
+}
+
+.card:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h3 {
+    color: ivory;
+    font-size: 5vh;
+    text-shadow: 2px 2px 1.8px rgb(144, 144, 144);
+}
+
+.card p {
+    font-size: 1.8vh;
+}
+
+#card1 {
+    background-image: url(https://openclipart.org/download/181811/howtoholdapen2.svg);
+    background-position: 45% 90%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #4ca750;
+}
+
+#card2 {
+    background-color: #fd940b;
+    background-image: url(https://openclipart.org/download/182789/1377986179.svg);
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    background-size: 35%;
+}
+
+#card3 {
+    background-color: #3994a0;
+}
+
+/* End Cardes */
+
+/* ================================ */

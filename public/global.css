@@ -1,0 +1,49 @@
+/* ================================ */
+
+/* Start Global Settings */
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+a,
+a:hover,
+a:visited,
+a:active {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+/* End Global Settings */
+
+/* ================================ */
+
+/* Start footer */
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+}
+
+footer p {
+    height: 100%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* End footer */

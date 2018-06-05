@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Core libs for summernote -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.js"></script>
+
+    <!-- Lib for file saving -->
+    <script src="./venders/file-saver/FileSaver.min.js"></script>
+
+    <!-- TODO: 註解一下 -->
+    <!-- TODO: style.css改一下 -->
+    <!--  -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
+    <link rel="stylesheet" href="./resources/css/labeling-tool/form-style.css">
+    <link rel="stylesheet" href="./resources/css/labeling-tool/style.css">
+
+</head>
+
+<!-- TODO: labeling tool移位 -->
+
+<body>
+    <!-- TODO: 把header完成弄過來 -->
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it
+                            a few sentences long so folks can pick up some informative tidbits. Then, link them off to some
+                            social networking sites or contact information.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white">Follow on Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Like on Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Email me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="https://openclipart.org/image/1024px/svg_to_png/217180/dumb-dog-2015041438.png" style="width:20px;background-color:white;margin-right:10px;"
+                        alt="">
+                    <strong>Abstract Labeler</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- TODO: 整理style-->
+    <!-- confidence  -->
+    <!-- TODO: Button description upon selection style-->
+    <!-- TODO: button沒有勾選失敗檢查 -->
+    <main role="main">
+        <header class="mt-5 mb-5 ">
+            <div class="container">
+                <h1 class="text-center">Paper Abstract Labeler</h1>
+            </div>
+        </header>
+
+        <section class="labeling-area">
+            <div class="container">
+                <form method="post">
+                    <textarea id="summernote" name="editordata" rows="14" cols="50"> </textarea>
+                </form>
+            </div>
+        </section>
+
+        <!-- The select buttons below the text-area -->
+        <div class="container">
+            <form class="form-inline mt-3" id="form-of-aux-info">
+
+                <!-- Select paper type -->
+                <fieldset class="form-group col-sm-6">
+                    <legend>Paper Type</legend>
+                    <div class="col-sm-12">
+                        <input type='radio' name='type' value='algorithm' id="radio-algorithm">
+                        <label for="radio-algorithm">Algorithm</label>
+                        <input type='radio' name='type' value='proof' id="radio-proof">
+                        <label for="radio-proof">Proof</label>
+                        <input type='radio' name='type' value='survey' id="radio-survey">
+                        <label for="radio-survey">Survey</label>
+                        <input type='radio' name='type' value='application' id="radio-application">
+                        <label for="radio-application">Application</label>
+                        <input type='radio' name='type' value='others' id="radio-others">
+                        <label for="radio-others">Others</label>
+                    </div>
+                    <div class="col-sm-12 ml-3" id="description-display1"></div>
+                </fieldset>
+
+                <!-- Select confidence -->
+                <fieldset class="form-group col-sm-3">
+                    <legend>Confidence rank</legend>
+                    <div>
+                        <input type='radio' name='confidence' value='low' id="radio-low">
+                        <label for="radio-low">low</label>
+                        <input type='radio' name='confidence' value='medium' id="radio-mid">
+                        <label for="radio-mid">medium</label>
+                        <input type='radio' name='confidence' value='high' id="radio-high">
+                        <label for="radio-high">high</label>
+                    </div>
+                </fieldset>
+
+                <div class="col-sm-3">
+                    <button type="button " id="saveBtn " value="save " class="btn btn-dark ">Save with Google Account</button>
+                </div>
+
+            </form>
+        </div>
+
+
+    </main>
+
+    <script src="./resources/js/labeling-tool/firebase_handler.js "></script>
+    <script src="./resources/js/labeling-tool/labeling_handler.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+#form-of-aux-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+#form-of-aux-info div {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#form-of-aux-info label {
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+#form-of-aux-info input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+#form-of-aux-info input:checked {
+    border: 6px solid black;
+    font-weight: 800;
+}
+
+#description-display1 {
+    font-style: italic;
+    font-size: 2.4vh;
+    font-weight: bold;
+    color: rgb(54, 54, 39);
+}
+
+#form-of-aux-info legend {
+    font-size: 3vh;
+}
+
+#form-of-aux-info button {
+    margin-top: 2vh;
+}
