@@ -8,6 +8,10 @@
     margin-bottom: 5px;
 }
 
+#form-of-aux-info legend {
+    font-size: 3vh;
+}
+
 #form-of-aux-info label {
     margin-right: 15px;
     line-height: 32px;
@@ -34,16 +38,12 @@
 }
 
 #description-display1 {
-    font-style: italic;
     font-size: 2.4vh;
     font-weight: bold;
     color: rgb(54, 54, 39);
 }
 
-#form-of-aux-info legend {
-    font-size: 3vh;
-}
-
 #form-of-aux-info button {
-    margin-top: 2vh;
+    margin-top: 2.5vh;
+    margin-left: 2vh;
 }

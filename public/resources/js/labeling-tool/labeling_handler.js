@@ -179,6 +179,13 @@ function saveSubmissionLocally(filename, submissionObj) {
 
 $("#saveBtn").click(function () {
 
+    // Check if the paper type and the confidence rank have been selected.
+    if ($('input[name="confidence"]:checked').length == 0 || $('input[name="type"]:checked').length == 0) {
+        alert("Please select the paper type and the confidence rank first.");
+        return false;
+    }
+
+
     var filename = localStorage.getItem('chosenFile');
 
     // Collect results to submission object

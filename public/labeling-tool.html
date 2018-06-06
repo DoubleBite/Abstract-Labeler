@@ -75,11 +75,10 @@
             </div>
         </div>
     </header>
-
-    <!-- TODO: 整理style-->
-    <!-- confidence  -->
-    <!-- TODO: Button description upon selection style-->
-    <!-- TODO: button沒有勾選失敗檢查 -->
+    <!-- TODO: 說明文件 -->
+    <!-- TODO: 不能被改文字 -->
+    <!-- TODO: cache -->
+    <!-- TODO: js 排版 -->
     <main role="main">
         <header class="mt-5 mb-5 ">
             <div class="container">
@@ -95,7 +94,7 @@
             </div>
         </section>
 
-        <!-- The select buttons below the text-area -->
+        <!-- Some options below the text-area -->
         <div class="container">
             <form class="form-inline mt-3" id="form-of-aux-info">
 
@@ -119,7 +118,7 @@
 
                 <!-- Select confidence -->
                 <fieldset class="form-group col-sm-3">
-                    <legend>Confidence rank</legend>
+                    <legend>Confidence in labeling</legend>
                     <div>
                         <input type='radio' name='confidence' value='low' id="radio-low">
                         <label for="radio-low">low</label>
@@ -130,8 +129,9 @@
                     </div>
                 </fieldset>
 
+                <!-- Submit button -->
                 <div class="col-sm-3">
-                    <button type="button " id="saveBtn " value="save " class="btn btn-dark ">Save with Google Account</button>
+                    <button type="button" id="saveBtn" value="save" class="btn btn-dark">Save with Google Account</button>
                 </div>
 
             </form>
