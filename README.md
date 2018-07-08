@@ -4,10 +4,10 @@
 此 Repository 用以存放 Abstract Labeler 的程式碼。 ([Abstract Labeler 連結](https://abstractlabeling.firebaseapp.com/))  <br/>
 
 
-Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**，在此計畫中主要擔當資料收集的角色，目前是部署在 google firebase 上面，以 firebase 官方提供的 firestore 功能為儲存標注檔的資料庫，並以 gmail authentication api 來管理標注者的上傳以及會員資訊。[firebase project 管理頁面連結](https://console.firebase.google.com/project/abstractlabeling/overview)
+Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**，在此計畫中主要擔當資料收集的角色，目前是部署在 google firebase 上面，以 firebase 官方提供的 firestore 功能為儲存標注檔的資料庫，並以 gmail authentication api 來管理標注者的上傳以及會員資訊。([firebase project 管理頁面連結](https://console.firebase.google.com/project/abstractlabeling/overview))
 
 
-前端的[標注工具](https://abstractlabeling.firebaseapp.com/labeling-tool.html) 是核心功能所在。標注者可以載入一至多個文字檔，為其加上 tag (顏色)，並將標注的結果以 json 檔的格式在本地端儲存，並上傳一份包含時間流水號的 json document 至firebase的資料庫儲存，詳細的標注流程可參考標注工具頁面右上角的[使用教學](https://abstractlabeling.firebaseapp.com/tutorial.html)。剩下的網頁部分包含：首頁、計畫說明，以及如何申請成為標注者等等...。
+前端的 [標注工具](https://abstractlabeling.firebaseapp.com/labeling-tool.html) 是核心功能所在。標注者可以載入一至多個文字檔，為其加上 tag (顏色)，並將標注的結果以 json 檔的格式在本地端儲存，並上傳一份包含時間流水號的 json document 至firebase的資料庫儲存，詳細的標注流程可參考標注工具頁面右上角的 [使用教學](https://abstractlabeling.firebaseapp.com/tutorial.html) 。剩下的網頁部分包含：首頁、計畫說明，以及如何申請成為標注者等等...。
 
 
 後端的部分主要負責處理標注者觸發的各種事件，包含：
