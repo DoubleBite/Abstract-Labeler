@@ -26,13 +26,17 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 
 
-Abstract Labeler 目前部署在 firebase 上面
+Abstract Labeler 目前部署在 firebase 上面，並以 firebase 提供的 firestore 功能為儲存標注檔的資料庫。
+https://console.firebase.google.com/project/abstractlabeling/overview
 因此現存的
 
+
+官方 hosting 
 也是以firebase 主要的結構
 
 
 ## 資料夾結構
+
 
 
 
