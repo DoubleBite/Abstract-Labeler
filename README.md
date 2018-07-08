@@ -27,13 +27,10 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 + functions:
 + public
-+ 
-+ 其他：我不確定功能，可參考官方文件 https://firebase.google.com/docs/hosting/?authuser=0
++ firestore.rules: 
++ 其他：我不確定功能，可參考 [官方文件](https://firebase.google.com/docs/hosting/?authuser=0)
 
-
-
-
-
+---
 
 ## Todo
 
