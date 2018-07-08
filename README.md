@@ -26,7 +26,9 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 因為 Abstract Labeler 目前部署在 firebase hosting 上面，所以資料夾分類是以 firebase 官方提供的資料節結構為主：
 
 + functions:
++ public
 + 
++ 其他：我不確定功能，可參考官方文件 https://firebase.google.com/docs/hosting/?authuser=0
 
 
 
