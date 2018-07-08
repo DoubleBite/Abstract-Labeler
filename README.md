@@ -19,17 +19,14 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 註： 聯絡新標注者並寄發正式的標注檔這邊的流程目前保留人工的，因為包含一些人工審核標注者的資格、索取報帳資訊等，最後管理員才能正式寄發 100份待標注資料給標注者。
 
-## 資料夾結構
+---
 
-Abstract Labeler ，因此。
-https://console.firebase.google.com/project/abstractlabeling/overview
-因此現存的
+## 資料夾結構與檔案說明
 
+因為 Abstract Labeler 目前部署在 firebase hosting 上面，所以資料夾分類是以 firebase 官方提供的資料節結構為主：
 
-官方 hosting 
-也是以firebase 主要的結構
-
-
++ functions:
++ 
 
 
 
