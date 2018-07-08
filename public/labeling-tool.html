@@ -9,7 +9,7 @@
 
     <!-- Core libs for summernote -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css" rel="stylesheet">
@@ -22,9 +22,9 @@
     <!-- TODO: style.css改一下 -->
     <!--  -->
     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-
-    <link rel="stylesheet" href="./resources/css/labeling-tool/form-style.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
     <link rel="stylesheet" href="./resources/css/labeling-tool/style.css">
+    <link rel="stylesheet" href="./resources/css/labeling-tool/form-style.css">
 
 </head>
 
@@ -63,7 +63,7 @@
 
         <div class="navbar navbar-dark bg-dark box-shadow">
             <div class="container d-flex justify-content-between">
-                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                <a href="./index.html" class="navbar-brand d-flex align-items-center">
                     <img src="https://openclipart.org/image/1024px/svg_to_png/217180/dumb-dog-2015041438.png" style="width:20px;background-color:white;margin-right:10px;"
                         alt="">
                     <strong>Abstract Labeler</strong>
@@ -76,16 +76,28 @@
         </div>
     </header>
     <!-- TODO: 說明文件 -->
-    <!-- TODO: 不能被改文字 -->
+    <!-- TODO: 不能被改文字  尤其是空白建 -->
     <!-- TODO: cache -->
     <!-- TODO: js 排版 -->
+    <!-- TODO: ICON跟工具給credit在上面 -->
     <main role="main">
-        <header class="mt-5 mb-5 ">
+
+        <!--  -->
+        <header class="mt-5 mb-5">
             <div class="container">
                 <h1 class="text-center">Paper Abstract Labeler</h1>
             </div>
         </header>
 
+        <!-- Section for tutorial link -->
+        <section id="tutorial-section">
+            <div class="container">
+                <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/youtube-512.png" alt="">
+                <a href="./tutorial.html">使用教學</a>
+            </div>
+        </section>
+
+        <!-- TODO: CSS JS 整理 -->
         <section class="labeling-area">
             <div class="container">
                 <form method="post">
@@ -131,7 +143,7 @@
 
                 <!-- Submit button -->
                 <div class="col-sm-3">
-                    <button type="button" id="saveBtn" value="save" class="btn btn-dark">Save with Google Account</button>
+                    <button type="button" id="submit-btn" value="save" class="btn btn-dark">Save with Google Account</button>
                 </div>
 
             </form>
@@ -141,7 +153,9 @@
     </main>
 
     <script src="./resources/js/labeling-tool/firebase_handler.js "></script>
-    <script src="./resources/js/labeling-tool/labeling_handler.js "></script>
+    <script src="./resources/js/labeling-tool/submission-handler.js "></script>
+    <script src="./resources/js/labeling-tool/custom_summernote.js "></script>
+
 </body>
 
 </html>

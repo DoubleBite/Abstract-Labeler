@@ -1,10 +1,10 @@
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyDniuCMGZNMlwOOct4o9xb5I18MizkI1EE",
-    authDomain: "dddddd-55995.firebaseapp.com",
-    databaseURL: "https://dddddd-55995.firebaseio.com",
-    projectId: "dddddd-55995",
-    storageBucket: "dddddd-55995.appspot.com",
-    messagingSenderId: "704147310036"
+    apiKey: "AIzaSyBIcNm5sOm8eQBMDKfPH7P2ktkgyCGRKfY",
+    authDomain: "abstractlabeling.firebaseapp.com",
+    databaseURL: "https://abstractlabeling.firebaseio.com",
+    projectId: "abstractlabeling",
+    storageBucket: "abstractlabeling.appspot.com",
+    messagingSenderId: "531714359320"
 };
 firebase.initializeApp(config);

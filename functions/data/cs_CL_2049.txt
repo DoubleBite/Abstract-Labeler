@@ -1,0 +1,2 @@
+title: Computing Prosodic Morphology
+abstract:   This paper establishes a framework under which various aspects of prosodicmorphology, such as templatic morphology and infixation, can be handled undertwo-level theory using an implemented multi-tape two-level model. The paperprovides a new computational analysis of root-and-pattern morphology based onprosody.

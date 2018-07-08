@@ -1,0 +1,42 @@
+/* ================================ */
+
+/* The style sheet for header and footer across every html file*/
+
+/* ================================ */
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+a,
+a:hover,
+a:visited,
+a:active {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+/* ================================ */
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+}
+
+footer p {
+    margin-bottom: 0;
+}

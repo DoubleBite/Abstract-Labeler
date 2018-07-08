@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How-to</title>
+
+    <!-- Core libs for bootstrap and jquery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+    <!-- Lib for firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
+    <!-- User defined libs -->
+    <link rel="stylesheet" href="./resources/css/global.css">
+</head>
+
+
+<body>
+
+    <!-- NavBar -->
+    <nav>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="./index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="https://openclipart.org/image/1024px/svg_to_png/217180/dumb-dog-2015041438.png" style="width:20px;background-color:white;margin-right:10px;"
+                        alt="">
+                    <strong>Abstract Labeler</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="mt-5 mb-5">
+        <div class="container">
+            <h1 class="text-center">如何成為一個標註者？</h1>
+        </div>
+    </header>
+
+    <!-- Section 1  Gmail 申請-->
+    <section id="section-1">
+        <div class="container">
+            <h3>1. Gmail 申請</h3>
+            <p>若您有意願成為一名標註者，請以 Gmail 授權方式提出申請。我們將會在五分鐘之內寄送一份測試用的標註檔到您註冊的信箱。 (請用Google帳號)
+            </p>
+            <button type="submit" id="register-btn" class="btn btn-primary">使用 Google 帳號申請登入</button>
+        </div>
+    </section>
+
+    <!-- Section 2 通過測試 -->
+    <section id="section-2" class="mt-5">
+        <div class="container">
+            <h3>2. 通過測試</h3>
+            <p>請至
+                <a href="https://abstractlabeling.firebaseapp.com/labeling-tool.html" style="color:blue">標註工具</a>
+                完成測試，測試的成績需高於我們認可的門檻，我們才會正式聘用您為此計畫的標註者。
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 3 等待審核 -->
+    <section id="section-3" class="mt-5">
+        <div class="container">
+            <h3>3. 等待審核</h3>
+            <p>在審核期間，我們將會跟您確認您正式的意願以及索取一些報帳所需的相關資料。
+                <br> 當您的帳號審核通過後您將會收到一封郵件，該郵件由系統自動分派給您第一批100篇論文摘要原始檔，將以.zip附件的方式附給您。
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 4 開始標註 -->
+    <section id="register" class="mt-5">
+        <div class="container">
+            <h3>4. 開始標註</h3>
+            <p>當您收到100篇論文摘要原始檔的原始檔後，即可在
+                <a href="https://abstractlabeling.firebaseapp.com/labeling-tool.html" style="color:blue">標註工具</a>
+                開始您的標註任務 ～</p>
+        </div>
+    </section>
+
+    <!-- 
+        <p>※註：本標註程式使用google提供的firebase作為雲端空間。只要您在本機端做好所有操作並且存檔，便會自動上傳答案至指定雲端空間，不需要額外做繳交的動作。你只需要確認同時存有在本機端的同名檔案備份即可。因此建議您將所有標註過的論文放在同一資料夾內，以便日後有需要與您核對用。</p> -->
+
+
+
+    <script src="./resources/js/firebase_initializer.js"></script>
+    <script src="./resources/js/howto/howto.js"></script>
+
+
+
+
+
+</body>
+
+</html>

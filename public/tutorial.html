@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tool Usage</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./resources/css/global.css">
+</head>
+
+
+<body>
+    <!-- TODO: 把header完成弄過來 -->
+    <nav>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white">Follow on Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Like on Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Email me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="./index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="https://openclipart.org/image/1024px/svg_to_png/217180/dumb-dog-2015041438.png" style="width:20px;background-color:white;margin-right:10px;"
+                        alt="">
+                    <strong>Abstract Labeler</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="mt-5 mb-5">
+        <div class="container">
+            <h1 class="text-center">Labeling Tool Usage</h1>
+        </div>
+    </header>
+
+    <!-- TODO: 要有一個回標註工具 -->
+    <section id="load-data">
+        <div class="container">
+            <h3>1. Load the data</h3>
+            <p>按"選擇檔案"載入標註 txt 檔(可一次載入多個)。File list 可以挑選剛剛載入的檔案。</p>
+        </div>
+        <div class="container text-center">
+            <img src="https://i.imgur.com/Uuwbqzz.png" alt="" style="width:60%;">
+        </div>
+    </section>
+
+    <section id="label-data" class="mt-5">
+        <div class="container">
+            <h3>2. Label the data</h3>
+            <p>點擊中間的綠/藍/紅色按鈕可以將滑鼠選取的字句加上該 label 的顏色，有關標註 data 與 label 的解釋請參考
+                <a href="">tmp</a>。
+                <br> 工具列右方的功能鍵依照順序分別可以清除滑鼠選取區域的顏色樣式、跳回上一步、跳回下一步。
+            </p>
+        </div>
+        <div class="container text-center">
+            <img src="https://i.imgur.com/7cMhmEQ.png" alt="" style="width:60%;">
+        </div>
+    </section>
+
+    <section id="type-confidence" class="mt-5 mb-5">
+        <div class="container">
+            <h3>3. Select paper type and confidence</h3>
+            <p>
+                最後一個標註程序，必須要選擇 Paper 的種類(左下角)，以及您對這篇標註的信心水準(中間下方)，這兩項標籤將有助於我們進行後續的深度學習分析。
+                <br>全部的標註都完成後，即可按下右下角的 Submit Button。 Submission 程序會請求您的 Google 信箱授權，以便讓我們用信箱名稱來記錄您的標註歷史。
+            </p>
+        </div>
+        <div class="container text-center mt-4">
+            <img src="https://i.imgur.com/cksy8uK.png" alt="" style="width:60%;">
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-light mt-5">
+        <div class="container">
+            <p>
+                <strong>
+                    台灣大學資訊工程學系 林守德教授 實驗室計畫之一
+                </strong>
+            </p>
+            <p>
+                <strong>管理者聯絡信箱:&nbsp;
+                    <a style=" text-decoration: underline;" href="mailto:ntuabstractlabeler@gmail.com">ntuabstractlabeler@gmail.com</a>
+                </strong>
+            </p>
+            <br>
+        </div>
+    </footer>
+</body>
+
+</html>

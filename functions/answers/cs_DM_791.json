@@ -1,0 +1,7 @@
+﻿{
+    "target": "the problem of computing the second elementary symmetricpolynomial S^2_n(X)zz\n",
+    "method": "using depth-three arithmetic circuits of the form \"sum ofproducts of linear forms\"\nWe consider this problem over several fields anddetermine EXACTLY the number of multiplication gates required.\n",
+    "result": "The lower boundsare proved for inhomogeneous circuits where the linear forms are allowed tohave constants; the upper bounds are proved in the homogeneous model.\nFor realsand rationals, the number of multiplication gates required is exactly n-1; inmost other cases, it is \\ceil{n/2}.\nour resultsanswer the following question of Babai and Frankl: what is the minimum numberof complete bipartite graphs required to cover each edge of a complete graph anodd number of times? We show that for infinitely many n, the answer is\\ceil{n/2}.\n",
+    "confidence": "medium",
+    "type": "proof"
+}

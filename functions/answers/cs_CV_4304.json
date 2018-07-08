@@ -1,0 +1,7 @@
+﻿{
+    "target": "The pixel percentage belonging to the user defined area that are assigned tocluster in a confusion matrix for RADARSAT-2 over Vancouver area has beenanalysed for classification.\n",
+    "method": "In this study, supervised Wishart and SupportVector Machine (SVM) classifiers over RADARSAT-2 (RS2) fine quadpol mode SingleLook Complex (SLC) product data is computed and compared.zz\n",
+    "result": "",
+    "confidence": "medium",
+    "type": "algorithm"
+}
