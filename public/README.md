@@ -6,11 +6,7 @@
 
 + vendors:  用來放外部或他人提供的 library，目前只有放 file-saver 
   + file-saver : 能將 json data 儲存成檔案的 [library](https://github.com/eligrey/FileSaver.js/)
++ resources :
+  + css : 
+  + js : 
 
-
-├─resources <br/>
-│  ├─css <br/>
-│  │  └─labeling-tool <br/>
-│  └─js <br/>
-│      ├─howto <br/>
-│      └─labeling-tool <br/>
