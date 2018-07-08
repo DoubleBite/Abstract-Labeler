@@ -6,7 +6,7 @@
 Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**，在此計畫中主要擔當資料收集的角色。
 
 前端的[標注工具](https://abstractlabeling.firebaseapp.com/labeling-tool.html) 是核心功能所在。標注者可以載入一至多個文字檔，為其加上 tag (顏色)，並將標注的結果在本地端以 json 的格式儲存，並上傳一份包含時間流水號的
-至firebase的資料庫。
+json document 至firebase的資料庫。
 
 
 詳細的標注流程可參考標注工具頁面右上角的使用教學。 <br/>
