@@ -1,10 +1,8 @@
 # Abstract-Labeler
 
 
-此repository
-
-abstract labeling tool
-
+此 repository 用來存放 Abstract Labeler 的程式碼。
+[Abstract Labeler 連結] https://abstractlabeling.firebaseapp.com/
 
 跟
 
