@@ -1,6 +1,6 @@
 # Public 資料夾的 Readme
 
-資料夾的配置是按照
+## 資料夾結構與程式功能說明
 
 
 ├─resources <br/>
