@@ -44,4 +44,4 @@ https://console.firebase.google.com/project/abstractlabeling/overview
 
 ## Todo
 
-+ [有空再做就好] index.js 裡面的 submit function (使用者上傳標注檔的時觸發的功能) 是以express app 為主寫成的，app 的實作建議可以移到另一個檔案以增加程式可讀性
++ [有空再做就好] index.js 裡面的 submit function (使用者上傳標注檔時觸發的功能) 是以express app 為主寫成的，app 的實作建議可以從 index.js 移到另一個檔案以增加程式可讀性
