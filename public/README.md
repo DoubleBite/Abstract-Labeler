@@ -3,12 +3,12 @@
 資料夾的配置是按照
 
 
-├─resources
-│  ├─css
-│  │  └─labeling-tool
-│  └─js
-│      ├─howto
-│      └─labeling-tool
-└─venders
+├─resources <br/>
+│  ├─css <br/>
+│  │  └─labeling-tool <br/>
+│  └─js <br/>
+│      ├─howto <br/>
+│      └─labeling-tool <br/>
+└─venders <br/>
     └─file-saver
         └─demo 10.23.13
