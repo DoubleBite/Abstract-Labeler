@@ -4,7 +4,7 @@
 此 Repository 用以存放 Abstract Labeler 的程式碼。 ([Abstract Labeler 連結](https://abstractlabeling.firebaseapp.com/))  <br/>
 
 
-Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**，在此計畫中主要擔當資料收集的角色，目前是部署在 google firebase 上面，以 firebase 官方提供的 firestore 功能為儲存標注檔的資料庫，並以 gmail authentication api 來管理標注者的上傳以及會員資訊。([firebase project 管理頁面連結](https://console.firebase.google.com/project/abstractlabeling/overview))
+Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**，在此計畫中主要擔當資料收集的角色，目前是部署在 google firebase 上面，以 firebase 官方提供的 firestore 功能為儲存標注檔的資料庫，並以 Gmail authentication API 來管理標注者的上傳以及會員資訊。([firebase project 管理頁面連結](https://console.firebase.google.com/project/abstractlabeling/overview))
 
 
 前端的 [標注工具](https://abstractlabeling.firebaseapp.com/labeling-tool.html) 是核心功能所在。標注者可以載入一至多個文字檔，為其加上 tag (顏色)，並將標注的結果以 json 檔的格式在本地端儲存，並上傳一份包含時間流水號的 json document 至firebase的資料庫儲存，詳細的標注流程可參考標注工具頁面右上角的 [使用教學](https://abstractlabeling.firebaseapp.com/tutorial.html) 。剩下的網頁部分包含：首頁、計畫說明，以及如何申請成為標注者等等...。
@@ -25,10 +25,10 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 因為 Abstract Labeler 目前部署在 firebase hosting 上面，所以資料夾分類是以 firebase 官方提供的資料夾結構為主：
 
-+ functions: 存放後端的程式碼，關於後端的功能請在這邊撰寫，可參考 functions 資料夾內部的 README
-+ public: 存放前端的程式碼，
-+ firestore.rules: 
-+ 其他：我不確定功能，可參考 [官方文件](https://firebase.google.com/docs/hosting/?authuser=0)
++ public: 存放前端的程式碼，所有前端的 html 網頁以及 css/js 資源都存放在此資料夾，詳情可參考 public 資料夾內部的 README.md
++ functions: 存放後端的程式碼，所有關於後端的功能請在這邊撰寫，詳情可參考 functions 資料夾內部的 README.md
++ firestore.rules:  規範 firestore 讀寫的規則
++ 其他：可參考 [官方文件](https://firebase.google.com/docs/hosting/?authuser=0)
 
 ---
 
