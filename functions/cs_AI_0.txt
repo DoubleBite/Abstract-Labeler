@@ -1,2 +1,0 @@
-title: Dynamic Backtracking
-abstract:   Because of their occasional need to return to shallow points in a searchtree, existing backtracking methods can sometimes erase meaningful progresstoward solving a search problem. In this paper, we present a method by whichbacktrack points can be moved deeper in the search space, thereby avoiding thisdifficulty. The technique developed is a variant of dependency-directedbacktracking that uses only polynomial space while still providing usefulcontrol information and retaining the completeness guarantees provided byearlier approaches.
