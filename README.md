@@ -25,8 +25,8 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 因為 Abstract Labeler 目前部署在 firebase hosting 上面，所以資料夾分類是以 firebase 官方提供的資料夾結構為主：
 
-+ public: 存放前端的程式碼，前端的 html 網頁及 css/js 資源都存放在此資料夾，可參考 public 資料夾內部的 README.md
-+ functions: 存放後端的程式碼，後端 nodejs 功能請在這邊撰寫，可參考 functions 資料夾內部的 README.md
++ public: 存放前端的程式碼，前端的 html 網頁及 css/js 資源都存放在此資料夾。詳情請參考 public/README.md
++ functions: 存放後端的程式碼，後端 nodejs 功能請在這邊撰寫。詳情請參考 functions/README.md
 + firestore.rules:  規範 firestore 讀寫的規則
 + 其他：可參考 [官方文件](https://firebase.google.com/docs/hosting/?authuser=0)
 
