@@ -4,9 +4,7 @@
 此 repository 用以存放 Abstract Labeler 的程式碼。 ([Abstract Labeler 連結](https://abstractlabeling.firebaseapp.com/))  <br/>
 Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**，在此計畫中主要擔當資料收集的角色。
 
-前端的[標注工具](https://abstractlabeling.firebaseapp.com/labeling-tool.html) 是核心功能所在。標注者可以載入一至多個文字檔，為其加上 tag (顏色)，並將標注的結果在本地端以 json 的格式儲存，並上傳一份包含時間流水號的
-json document 至firebase的資料庫。
-詳細的標注流程可參考標注工具頁面右上角的使用教學。 <br/>
+前端的[標注工具](https://abstractlabeling.firebaseapp.com/labeling-tool.html) 是核心功能所在。標注者可以載入一至多個文字檔，為其加上 tag (顏色)，並將標注的結果以 json 檔的格式在本地端儲存，並上傳一份包含時間流水號的 json document 至firebase的資料庫儲存，詳細的標注流程可參考標注工具頁面右上角的使用教學。 <br/>
 ，用
 主要是將讀入論文摘要
 剩下的網頁部分包含：首頁、計畫說明，以及如何申請成為標注者等等...。
