@@ -9,11 +9,14 @@
 
 ![](https://i.imgur.com/cfrhChr.png)
 
+<br>
+<br>
 
 2. test_submissions 收集 trainee 上傳的測試標注檔，並記錄其分數在名為 records 的 document 
 
 ![](https://i.imgur.com/yQY78oI.png)
 
+<br>
 <br>
 
 3. sas
