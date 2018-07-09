@@ -6,6 +6,7 @@
 
 ![](https://i.imgur.com/cfrhChr.png)
 
-2. test_submissions / submissions 則是用來存放使用者標注完成檔案的 collection，每一筆 submission 都是一則 document，因此把一堆同質性的 document 集合放在一個 collection 中。
+<br>
+2. test_submissions / submissions 則是用來存放使用者標注完成檔案的 collection，每筆 submission 都是一則 document，因此把一堆同質性的 document 集合放在同一個 collection 中。
 
 
