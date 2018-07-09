@@ -60,4 +60,4 @@ firestore 是屬於 document-based database，單一 document 的檔案格式以
 
 ## Acknowledgements
 + [Firebase](https://firebase.google.com/docs/) : 感謝Google 提供一個 serverless 的快速架站方案
-
++ [openclipart](https://openclipart.org/) : 感謝 openclipart 網站提供免費的 LOGO 素材
