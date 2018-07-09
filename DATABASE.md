@@ -20,6 +20,6 @@
 <br>
 <br>
 
-3. sas
+3. 每一筆上傳的 submission 用其檔案名稱作為 document 的 ID (因此後上傳的會蓋過前面上傳的)
 
 <img src="https://i.imgur.com/6CXbz48.png" width="80%">
