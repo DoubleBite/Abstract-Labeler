@@ -9,4 +9,8 @@
 <br>
 2. test_submissions / submissions 則是用來存放使用者標注完成檔案的 collection，每筆 submission 都是一則 document，因此把一堆同質性的 document 集合放在同一個 collection 中。
 
+3. test_submissions 收集 trainee 上傳的測試標注檔，並記錄其分數
+
+![](https://i.imgur.com/6CXbz48.png)
+![](https://i.imgur.com/yQY78oI.png)
 
