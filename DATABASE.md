@@ -22,9 +22,9 @@
 
 3. 每一筆上傳的 submission 皆用其檔案名稱作為 document 的 ID (因此後面上傳的會蓋過前面上傳的)
 
-+ target:
-+ method:
-+ result: 
++ target: 所有屬於 target 的句子，句子跟句子之間用 \n 做分隔
++ method:  所有屬於 method 的句子，句子跟句子之間用 \n 做分隔
++ result:  所有屬於 target 的句子，句子跟句子之間用 \n 做分隔
 + type: 這篇論文的性質
 + confidence: 標注者對此篇標注檔的信心
 + date: 上傳的時間流水號
