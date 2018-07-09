@@ -59,4 +59,5 @@ firestore 是屬於 document-based database，單一 document 的檔案格式以
 ---
 
 ## Acknowledgements
+感謝Google 提供一個 serverless 的快速架站方案
 
