@@ -25,7 +25,7 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 基本上就是先 clone 此 repo，然後按照 firebase 官方的 [deploy 教學](https://firebase.google.com/docs/hosting/deploying)來做，即可將變更 deploy 到 server 端。
 
-若要備份的話可再 push 回此 repo，建議開一個新的 branch，因為現在 server 端跑的已是穩定版本，建議在 branch 上測試成功後再 merge 回來。
+若要備份的話可再 push 回此 repo，建議開一個新的 branch，因為現在 server 端跑的已經是穩定版本，建議在 branch 上測試成功後再 merge 回來。
 
 ---
 
