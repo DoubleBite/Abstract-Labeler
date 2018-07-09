@@ -32,8 +32,21 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 ---
 
+## 資料庫儲存格式說明
+
+firestore 是屬於 document-based database，儲存的檔案格式以 json 為主
+
+
+
+---
+
 ## Todo
 + 首頁的計畫說明連結還沒有做，之後可以把完整的計畫說明丟上來，畢竟這是一個偉大的計畫？ 值得提一下XD
 + 各個網頁的 navbar 連結還沒做 (懶得做)
 + 首頁有一堆文字先用廢文填充上去，找時間把它補齊
 + [有空再做就好] index.js 裡面的 submit function (使用者上傳標注檔時觸發的功能) 是以express app 為主寫成的，app 的實作建議可以從 index.js 移到另一個檔案以增加程式可讀性
+
+---
+
+## Acknowledgements
+
