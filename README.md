@@ -36,7 +36,7 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 firestore 是屬於 document-based database，單一 document 的檔案格式以 json 為主，多個 document 集合為一個 collection，詳細關於 data model 的定義請參考 [Cloud Firestore Data model](https://firebase.google.com/docs/firestore/data-model).
 
-詳細的關於本資料庫的結構規劃請參考 [DATABASE.md]()
+詳細關於本資料庫的資料儲存結構規劃請參考 [DATABASE.md](./DATABASE.md)
 
 
 
