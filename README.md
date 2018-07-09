@@ -34,7 +34,8 @@ Abstract Labeler是一個前後端整合的 **文字檔標注暨收集工具**�
 
 ## 資料庫儲存格式說明
 
-firestore 是屬於 document-based database，儲存的檔案格式以 json 為主
+firestore 是屬於 document-based database，單一 document 的檔案格式以 json 為主，多個 document 集合為一個 collection <br>
+詳細的關於本資料庫的 schema 定義請參考 [DATABASE.md]()
 
 
 
