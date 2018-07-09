@@ -26,7 +26,7 @@ function computeCoverage(answer, submission) {
 function checkSubmit(filename, submissionObj) {
 
     return new Promise((resolve) => {
-        fs.readFile("./answers/" + filename + ".json", 'utf8', function (err, data) {
+        fs.readFile("./data/answers/" + filename + ".json", 'utf8', function (err, data) {
             if (err) throw err;
             console.log("111 " + JSON.parse(data.slice(1, data.length)).target);
 

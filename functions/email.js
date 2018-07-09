@@ -20,13 +20,13 @@ var mailOptions = {
             請下載附檔的三份測試文件， <br/>
             並至 <a href="https://abstractlabeling.firebaseapp.com/labeling-tool.html"> 標註工具 </a> 完成您的標註測試。`,
     attachments: [{
-            path: './data/cs_CL_2049.txt'
+            path: './data/raw/cs_CL_2049.txt'
         },
         {
-            path: './data/cs_DM_791.txt'
+            path: './data/raw/cs_DM_791.txt'
         },
         {
-            path: './data/cs_CV_4304.txt'
+            path: './data/raw/cs_CV_4304.txt'
         }
     ]
 };
