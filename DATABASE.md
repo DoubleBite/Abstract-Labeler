@@ -26,7 +26,7 @@
 <br>
 <br>
 
-3. test_submissions 裡面有一個特別的 document ，名為 records，用來收集 trainee 上傳的測試標注檔的分數 
+3. test_submissions 裡面有一個特別的 document ，名為 records，用來記錄 trainee 上傳的測試標注檔的分數 
 
 <img src="https://i.imgur.com/yQY78oI.png" width="80%">
 
